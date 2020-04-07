@@ -1,0 +1,213 @@
+/* index */
+
+@keyframes around {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 79%;
+    top: 0;
+          transform: rotate(90deg);
+  }
+  50% {
+    left: 79%;
+    top: 60%;
+      transform: rotate(180deg);
+  }
+  75% {
+    left: 0;
+    top: 90%;
+      transform: rotate(270deg);
+  }
+  100% {
+    left: 0;
+    top: 0;
+      transform: rotate(360deg);
+      width: 50px;
+  }
+}
+
+.bug {
+animation: around 10s  0s infinite;
+position: absolute;
+}
+
+/* bug 2*/
+
+@keyframes around-2 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    bottom:100%;
+    left: 0;
+    transform: rotate(90deg);
+  }
+  50% {
+    left: 79%;
+    top: 60%;
+      transform: rotate(180deg);
+  }
+
+    60% {
+    right: 79%;
+    top: 60%;
+      transform: rotate(180deg);
+        width: 35px;
+  }
+
+  90% {
+    left: 0;
+    top: 90%;
+      transform: rotate(270deg);
+  }
+  95% {
+    left: 0;
+    bottom: 90%;
+      transform: rotate(270deg);
+  }
+
+  100% {
+    left: 0;
+    top: 0;
+      transform: rotate(360deg);
+      width: 20px;
+  }
+}
+
+.bug-2 {
+animation: around-2 5s  0s infinite;
+position: absolute;
+}
+
+/* bug 3*/
+
+@keyframes around-3 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  10% {
+    left: 90%;
+    bottom: 90%;
+          transform: rotate(90deg);
+  }
+  50% {
+/*    left: 79%;*/
+    top: 60%;
+      transform: rotate(180deg);
+  }
+      55% {
+/*    left: 79%;*/
+    bottom: 60%;
+      transform: rotate(180deg);
+  }
+
+
+  75% {
+    right: 0;
+    top: 90%;
+      transform: rotate(270deg);
+  }
+  100% {
+    left: 0;
+    top: 0;
+      transform: rotate(360deg);
+      width: 50px;
+  }
+}
+
+.bug-3 {
+animation: around-3 3s linear  0s infinite;
+position: absolute;
+}
+
+
+/* bug 4*/
+
+@keyframes around-4 {
+  0% {
+    right: 50%;
+    top: 0%;
+      width: 100px;
+
+  }
+
+  100% {
+   right: 50%;
+    top: 100%;
+      width: 1px;
+  }
+}
+
+.bug-4 {
+animation: around-4 3s  0s infinite;
+position: absolute;
+}
+
+
+
+/*bug 5/5*/
+
+@keyframes around {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 79%;
+    top: 0;
+          transform: rotate(90deg);
+  }
+  50% {
+    left: 79%;
+    top: 60%;
+      transform: rotate(180deg);
+  }
+  75% {
+    left: 0;
+    top: 90%;
+      transform: rotate(270deg);
+  }
+  100% {
+    left: 0;
+    top: 0;
+      transform: rotate(360deg);
+      width: 50px;
+  }
+}
+
+.bug-5 {
+animation: around 5s  0s infinite;
+position: absolute;
+}
+
+/* finish */
+@keyframes around-6 {
+  0% {
+    left: 50%;
+    top: 50%;
+      width: 1px;
+  }
+
+  100% {
+    left: 50%;
+    top: 50%;
+      transform: rotate(360deg);
+      width: 90%;
+  }
+}
+.bug-6 {
+animation: around-6 20s linear  0s;
+    animation-iteration-count:infinite;
+position: absolute;
+}
+
+
+
+
+
+
+
